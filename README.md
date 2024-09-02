@@ -1,56 +1,67 @@
-# JavaQuizGame
+# Java IT Quiz Game
 
 This is a simple multiple-choice quiz game focused on basic programming concepts in IT. The game was developed using Java and can be run from the command line.
 
-Prerequisites
+## Prerequisites
+
 To run the quiz game, you need to have the following installed on your machine:
 
-Java Development Kit (JDK) (version 8 or later)
-A command-line interface (CLI) such as Command Prompt, PowerShell, or Terminal.
-How to Run the Game
-Clone the Repository:
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 8 or later)
+- A command-line interface (CLI) such as Command Prompt, PowerShell, or Terminal.
 
-First, clone the repository to your local machine using the following command:
+## How to Run the Game
 
-bash
-Copy code
-git clone https://github.com/daneeshak/JavaQuizGame.git
-Navigate to the Project Directory:
+1. **Clone the Repository:**
 
-Open your command-line interface and navigate to the directory where the project is located:
+   First, clone the repository to your local machine using the following command:
 
-bash
-Copy code
-cd JavaQuizGame
-Compile the Java Code:
+   ```bash
+   git clone https://github.com/daneeshak/JavaQuizGame.git
 
-Compile the ITQuizGame.java file using the javac command:
 
-bash
-Copy code
-javac ITQuizGame.java
-This will generate a ITQuizGame.class file in the same directory.
+ 2. Navigate to the Project Directory
 
-Run the Quiz Game:
+    Use your command-line interface (CLI) to navigate to the directory where the project is located:
 
-After compilation, run the game using the java command:
+    ```bash
+    cd JavaQuizGame
 
-bash
-Copy code
-java ITQuizGame
-Follow the On-Screen Instructions:
+3. Compile the Java Code
 
-The quiz will prompt you for your group name, your name, NIC, student number, and batch. Then, it will proceed with 10 multiple-choice questions. Simply enter your answers (A, B, C, or D) when prompted.
+   Compile the ITQuizGame.java file using the javac command:
 
-View Your Score:
+      ```bash
+       javac ITQuizGame.java
 
-At the end of the quiz, your score and a summary will be displayed, including the percentage and a final grade.
+ Ths will generate a ITQuizGame.class file in the same directory. The .class file is the compiled bytecode that the Java Virtual Machine (JVM) can execute.
 
-Customization
-You can customize the questions, answers, and other details by editing the ITQuizGame.java file. After making changes, be sure to recompile the code before running the game again.
+4. Run the Quiz Game
 
-Contributing
-If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
+    After compilation, you can run the quiz game using the java command:
 
-License
-This project is open-source and available under the MIT License.
+    ```bash
+    java ITQuizGame
+
+5. Follow the On-Screen Instructions
+
+    The quiz will prompt you for the following details:
+
+    Your group name
+    Your name
+    NIC
+    Student number
+    Batch
+
+    After entering these details, the quiz will begin. Simply enter your answers (A, B, C, or D) for each question when prompted
+
+6. View Your Score
+
+    At the end of the quiz, your score and a summary will be displayed. This summary will include:
+
+    The total number of correct answers
+    Your percentage score
+    A final grade based on your performance
+    
+    Additionally, your entered details (name, NIC, student number, batch) will be displayed for verification.
+
+    
