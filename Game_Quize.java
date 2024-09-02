@@ -5,9 +5,26 @@ import java.util.Scanner;
   
   int score = 0; 
   final int TOTAL_QUESTIONS = 10; 
+	
+// User inputs for group details
+  System.out.print("Enter your group name: ");
+  String groupName = scanner.nextLine();
+
+  System.out.print("Enter your name: ");
+  String userName = scanner.nextLine();
+
+  System.out.print("Enter your NIC: ");
+  String nic = scanner.nextLine();
+
+  System.out.print("Enter your student number: ");
+  String studentNumber = scanner.nextLine();
+
+  System.out.print("Enter your batch: ");
+  String batch = scanner.nextLine();
+
+  System.out.println("Welcome to the Java IT Quiz Game!");
+  System.out.println("Developed by 2nd Group");
   
-  System.out.println("Welcome to the Java Quiz Game!"); 
-  System.out.println("Developed by 2nd Group"); 
   
   // Question 1 
   System.out.println("\nQuestion 1: What does 'CPU' stand for?");
