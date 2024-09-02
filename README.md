@@ -31,7 +31,7 @@ To run the quiz game, you need to have the following installed on your machine:
    Compile the ITQuizGame.java file using the javac command:
 
       ```bash
-       javac ITQuizGame.java
+       javac Game_Quize.java
 
  Ths will generate a ITQuizGame.class file in the same directory. The .class file is the compiled bytecode that the Java Virtual Machine (JVM) can execute.
 
@@ -40,7 +40,7 @@ To run the quiz game, you need to have the following installed on your machine:
     After compilation, you can run the quiz game using the java command:
 
     ```bash
-    java ITQuizGame
+    java Game_Quize
 
 5. Follow the On-Screen Instructions
 
