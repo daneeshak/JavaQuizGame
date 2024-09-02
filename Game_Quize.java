@@ -181,6 +181,12 @@ import java.util.Scanner;
    else { 
    System.out.println("Better luck next time!"); 
    }    
+ // Display user details
+    System.out.println("\n-- Your Details --");
+    System.out.println("Name: " + userName);
+    System.out.println("NIC: " + nic);
+    System.out.println("Student Number: " + studentNumber);
+    System.out.println("Batch: " + batch);
    
    scanner.close();
   
