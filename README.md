@@ -19,49 +19,50 @@ To run the quiz game, you need to have the following installed on your machine:
    git clone https://github.com/daneeshak/JavaQuizGame.git
 
 
- 2. Navigate to the Project Directory
+ 2. **Navigate to the Project Directory**
 
     Use your command-line interface (CLI) to navigate to the directory where the project is located:
 
     ```bash
     cd JavaQuizGame
 
-3. Compile the Java Code
+3. **Compile the Java Code**
 
    Compile the ITQuizGame.java file using the javac command:
 
       ```bash
        javac Game_Quize.java
 
- Ths will generate a ITQuizGame.class file in the same directory. The .class file is the compiled bytecode that the Java Virtual Machine (JVM) can execute.
+ Ths will generate a Game_Quize.class file in the same directory. The .class file is the compiled bytecode that the Java Virtual Machine (JVM) can execute.
 
-4. Run the Quiz Game
+4. **Run the Quiz Game**
 
     After compilation, you can run the quiz game using the java command:
 
     ```bash
     java Game_Quize
 
-5. Follow the On-Screen Instructions
+5. **Follow the On-Screen Instructions:**
 
-    The quiz will prompt you for the following details:
+     The quiz will prompt you for your group name, your name, NIC, student number, and batch. Then, it will proceed with 10 multiple-choice questions. Simply enter your answers (A, B, C, or D) when prompted.
 
-    Your group name
-    Your name
-    NIC
-    Student number
-    Batch
+6. **View Your Score:**
 
-    After entering these details, the quiz will begin. Simply enter your answers (A, B, C, or D) for each question when prompted
+    At the end of the quiz, your score and a summary will be displayed, including the percentage and a final grade.
 
-6. View Your Score
+## Customization
+You can customize the questions, answers, and other details by editing the ITQuizGame.java file. After making changes, be sure to recompile the code before running the game again.
 
-    At the end of the quiz, your score and a summary will be displayed. This summary will include:
+## Contributing
+If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
 
-    The total number of correct answers
-    Your percentage score
-    A final grade based on your performance
-    
-    Additionally, your entered details (name, NIC, student number, batch) will be displayed for verification.
+## License
+
+This project is licensed under the MIT License. 
+
+### MIT License
+Copyright (c)  2024 Daneesha
+
+
 
     
