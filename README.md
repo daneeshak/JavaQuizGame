@@ -51,7 +51,7 @@ To run the quiz game, you need to have the following installed on your machine:
     At the end of the quiz, your score and a summary will be displayed, including the percentage and a final grade.
 
 ## Customization
-You can customize the questions, answers, and other details by editing the ITQuizGame.java file. After making changes, be sure to recompile the code before running the game again.
+You can customize the questions, answers, and other details by editing the Game_Quize.java file. After making changes, be sure to recompile the code before running the game again.
 
 ## Contributing
 If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
